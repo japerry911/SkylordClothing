@@ -29,8 +29,6 @@ class App extends Component {
               id: snapshot.id,
               ...snapshot.data()
             }
-          }, () => {
-            console.log(this.state);
           });
         });
       } else {
